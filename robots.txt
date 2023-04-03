@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://agustinhernandez.github.io/sitemap.xml
