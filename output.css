@@ -713,10 +713,6 @@ video {
        column-gap: 0.5rem;
 }
 
-.gap-y-8 {
-  row-gap: 2rem;
-}
-
 .gap-y-2 {
   row-gap: 0.5rem;
 }
