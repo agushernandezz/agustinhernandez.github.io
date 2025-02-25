@@ -8,13 +8,24 @@
       <link rel="canonical" href="https://agushernandezz.github.io/agustinhernandez.github.io/">
       <title>Agustin Hernandez | Data Engineer</title>
       <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Open Graph / Facebook Meta Tags -->
       <meta name="og:url" content="https://agushernandezz.github.io/agustinhernandez.github.io/">
       <meta name="og:site_name" content="Agustin Hernandez | Data Engineer">
       <meta name="og:description" content="I'm a Data Engineer building and delivering scalable, high-performance data solutions for business impact. Learn more about me.">
       <meta name="og:title" content="Agustin Hernandez | Data Engineer">
-      <meta name="og:image" content="https://agushernandezz.github.io/agustinhernandez.github.io/images/profile.webp">
+      <meta name="og:image" content="https://agushernandezz.github.io/agustinhernandez.github.io/images/profile_meta.webp">
       <meta name="og:type" content="software">
       <meta name="description" content="I'm a Data Engineer building and delivering scalable, high-performance data solutions for business impact. Learn more about me.">
+
+      <!-- Twitter Meta Tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta property="twitter:domain" content="agushernandezz.github.io">
+      <meta property="twitter:url" content="https://agushernandezz.github.io/agustinhernandez.github.io/">
+      <meta name="twitter:title" content="Agustin Hernandez | Data Engineer">
+      <meta name="twitter:description" content="I'm a Data Engineer building and delivering scalable, high-performance data solutions for business impact. Learn more about me.">
+      <meta name="twitter:image" content="https://agushernandezz.github.io/agustinhernandez.github.io/images/profile_meta.webp">
+
       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -60,24 +71,30 @@
                <p class="mb-4">To contact me, please feel free to reach out to me on GitHub or LinkedIn. I am open to new opportunities and collaborations.</p>
                <!-- Projects -->
                <h2 id="projects" href="#projects" class="text-xl font-[550] mt-8 mb-4 text-sky-900">Projects</h2>
-               <div class=" mb-4 space-y-4">
-                  <h3 class="font-bold">Real-time Financial Data Analytics Platform</h3>
-                  <em>Python, Pub/Sub, Airflow, GCS, Docker, Looker, BigQuery</em>
+               <div class="mb-4 space-y-4">
+                  <div class="space-y-4" itemscope itemtype="http://schema.org/SoftwareApplication">
+                     <h3 class="font-bold" itemprop="name">Real-time Financial Data Analytics Platform</h3></h3>
+                     <em itemprop="keywords">Python, Pub/Sub, Airflow, GCS, Docker, Looker, BigQuery</em>
+                     <meta itemprop="applicationCategory" content="Data Engineering">
+   
+                     <ul class="list-disc pl-5 space-y-2" itemprop="description">
+                        <li>Developed a real-time financial data platform ingesting market data via Pub/Sub for streaming.</li>
+                        <li>Processed data via Airflow, stored in GCS/BigQuery, and visualized in Looker for real-time analytics.</li>
+                        <li>Deployed pipeline on Kubernetes (Terraform managed) for robust scalability and reliability.</li>
+                     </ul>
+                  </div>
 
-                  <ul class="list-disc pl-5 space-y-2">
-                     <li>Developed a real-time financial data platform ingesting market data via Pub/Sub for streaming.</li>
-                     <li>Processed data via Airflow, stored in GCS/BigQuery, and visualized in Looker for real-time analytics.</li>
-                     <li>Deployed pipeline on Kubernetes (Terraform managed) for robust scalability and reliability.</li>
-                  </ul>
-
-                  <h3 class="font-bold">RAG Document QA System</h3>
-                  <em>Python, Polars, Airflow, LangChain, LanceDB, Streamlit</em>
-
-                  <ul class="list-disc pl-5 space-y-2">
-                     <li>Developed an intelligent Q&A system for diverse user technical documentation formats.</li>
-                     <li>Implemented Airflow/Polars batch pipeline for efficient document ingestion and indexing.</li>
-                     <li>Leveraged LangChain/LanceDB for RAG-based question answering via Streamlit application.</li>
-                  </ul>
+                  <div class="space-y-4">
+                     <h3 class="font-bold" itemprop="name">>RAG Document QA System</h3>
+                     <em itemprop="keywords">Python, Polars, Airflow, LangChain, LanceDB, Streamlit</em>
+                     <meta itemprop="applicationCategory" content="Data Engineering">
+   
+                     <ul class="list-disc pl-5 space-y-2" itemprop="description">
+                        <li>Developed an intelligent Q&A system for diverse user technical documentation formats.</li>
+                        <li>Implemented Airflow/Polars batch pipeline for efficient document ingestion and indexing.</li>
+                        <li>Leveraged LangChain/LanceDB for RAG-based question answering via Streamlit application.</li>
+                     </ul>
+                  </div>
                   
                </div>
                <!-- Experience -->
@@ -85,25 +102,25 @@
                <div class="max-w-4xl w-full flex m-auto mt-2">
                   <!--List work places-->
                   <ul class="flex flex-col w-full justify-center gap-y-2">
-                     <li class="w-full flex flex-row gap-x-2 h-28 justify-center ">
-                        <img src="images/work_logo_experience_2.webp" class="hidden xs:block ml-4 rounded-full object-cover h-24 w-24 self-center" alt="Growketing logo - Work experience" loading="lazy">
+                     <li class="w-full flex flex-row gap-x-2 h-28 justify-center" itemscope itemtype="http://schema.org/Organization">
+                        <img src="images/work_logo_experience_2.webp" class="hidden xs:block ml-4 rounded-full object-cover h-24 w-24 self-center" alt="Growketing logo - Work experience" itemprop="logo" loading="lazy">
                         <div class="flex flex-col w-full justify-center">
-                           <h3 class="text-lg font-bold">Growketing</h3>
-                           <h4 class="text-sm text-slate-500">Barcelona, Catalonia, Spain - Remote</h4>
+                           <h3 class="text-lg font-bold" itemprop="name">Growketing</h3>
+                           <h4 class="text-sm text-slate-500" itemprop="location">Barcelona, Catalonia, Spain - Remote</h4>
                            <div class="flex flex-col md:flex-row w-full md:justify-between">
                               <p class="text-sm mt-2 text-slate-500">Data Engineer</p>
-                              <p class="text-sm mt-2 mr-4 text-slate-500">May 2023 - To present</p>
+                              <p class="text-sm mt-2 mr-4 text-slate-500" itemprop="startDate">May 2023 - Present</p>
                            </div>
                         </div>
                      </li>
-                     <li class="w-full flex flex-row gap-x-2 h-28 justify-center">
-                        <img src="images/work_logo_experience.webp" class="hidden xs:block ml-4 rounded-full object-cover h-24 w-24 self-center" alt="Dambolena logo - Work experience" loading="lazy">
+                     <li class="w-full flex flex-row gap-x-2 h-28 justify-center" itemscope itemtype="http://schema.org/Organization">
+                        <img src="images/work_logo_experience.webp" class="hidden xs:block ml-4 rounded-full object-cover h-24 w-24 self-center" alt="Dambolena logo - Work experience" loading="lazy" itemprop="logo">
                         <div class="flex flex-col w-full justify-center">
-                           <h3 class="text-lg font-bold">Dambolena</h3>
-                           <h4 class="text-sm text-slate-500">Buenos Aires, Argentina - Hybrid</h4>
+                           <h3 class="text-lg font-bold" itemprop="name">Dambolena</h3>
+                           <h4 class="text-sm text-slate-500" itemprop="location">Buenos Aires, Argentina - Hybrid</h4>
                            <div class="flex flex-col md:flex-row w-full md:justify-between">
                               <p class="text-sm mt-2 text-slate-500">Data Developer</p>
-                              <p class="text-sm mt-2 mr-4 text-slate-500">Jan 2022 - Apr 2023</p>
+                              <p class="text-sm mt-2 mr-4 text-slate-500" itemprop="startDate">Jan 2022 - Apr 2023</p>
                            </div>
                         </div>
                      </li>
